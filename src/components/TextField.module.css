@@ -1,0 +1,15 @@
+.textField {
+    display: flex;
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 6px;
+    background-color: #F2F2F2;
+    color: var(--color-dark---1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.textField::placeholder {
+    color: #C7C7C7;
+}

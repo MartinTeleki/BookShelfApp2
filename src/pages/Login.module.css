@@ -1,0 +1,56 @@
+body {
+  background-color: var(--color-white--1);
+}
+
+.login {
+  height: 100vh;
+  gap: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form {
+  display: flex;
+  background-color: var(--color-white--0);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 48rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btnContainerSecond {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+}
+
+.primaryBtn {
+  background-color: var(--color-blue--1);
+  color: var(--color-white--0);
+}
+
+.secondaryBtn {
+background-color: rgba(0, 123, 255, 0.15);
+color: var(--color-blue--1);
+}
+
+.terciaryBtn {
+background-color: transparent;
+color: var(--color-blue--1);
+}

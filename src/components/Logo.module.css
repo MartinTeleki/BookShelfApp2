@@ -1,0 +1,26 @@
+.logo {
+  height: 5.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstWordSpan {
+  color: var(--color-dark---1);
+  margin-right: 5px;
+  font-family: Inter;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.secondWordSpan {
+  color: var(--color-blue--1);
+  margin-left: 5px;
+  font-family: Inter;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
