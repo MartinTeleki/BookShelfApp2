@@ -24,16 +24,16 @@ export default function Login() {
           </div>
           <div className={styles.btnContainer}>
             <Button
-              className={styles.primaryBtn}
+              className="primaryBtn"
               btnText="Přihlásit se"
             />
             <div className={styles.btnContainerSecond}>
               <Button
-                className={styles.terciaryBtn}
+                className="terciaryBtn"
                 btnText="Zapomenuté heslo"
               />
               <Button
-                className={styles.secondaryBtn}
+                className="secondaryBtn"
                 btnText="Vytvořit účet"
               />
             </div>

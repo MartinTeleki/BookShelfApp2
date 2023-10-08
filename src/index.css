@@ -57,7 +57,7 @@ input:focus {
   background-color: #fff;
 }
 
-.cta:link,
+/* .cta:link,
 .cta:visited {
   display: inline-block;
   background-color: var(--color-brand--2);
@@ -68,6 +68,22 @@ input:focus {
   font-weight: 600;
   padding: 1rem 3rem;
   border-radius: 5px;
+} */
+
+/* Buttons  */
+.primaryBtn {
+  background-color: var(--color-blue--1);
+  color: var(--color-white--0);
+}
+
+.secondaryBtn {
+  background-color: rgba(0, 123, 255, 0.15);
+  color: var(--color-blue--1);
+}
+
+.terciaryBtn {
+  background-color: transparent;
+  color: var(--color-blue--1);
 }
 
 /*
